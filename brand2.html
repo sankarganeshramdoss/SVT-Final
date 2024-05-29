@@ -1,0 +1,91 @@
+<style>
+.brand1{
+  background: -webkit-linear-gradient(left, #1E2761, #408EC6, #7A2048 );
+padding-top: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+}
+  
+.brand {
+  
+  position: relative;
+  width: 150px;
+  
+  margin: 0px auto;
+  perspective: 1000px;
+  padding-top: 80px;
+}
+.rotator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 75%;
+  height: 150px;
+  transform-style: preserve-3d;
+  animation: roter 17s linear infinite;
+}
+.rotator:hover {
+  animation-play-state: paused;
+}
+@keyframes roter {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.items {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  border: 2px solid #FF69B4;
+}
+.items:hover img {
+  transform: scale(1.2);
+}
+.items img {
+  height: 100%;
+  width: 100%;
+  transition: all 3s ease;
+}
+.items:first-child {
+  transform: rotateY(calc(90deg * 1)) translateZ(200px);
+}
+.items:nth-child(2) {
+  transform: rotateY(calc(90deg * 2)) translateZ(200px);
+}
+.items:nth-child(3) {
+  transform: rotateY(calc(90deg * 3)) translateZ(200px);
+}
+.items:nth-child(4) {
+  transform: rotateY(calc(90deg * 4)) translateZ(200px);
+}
+.items:nth-child(5) {
+  transform: rotateY(calc(90deg * 5)) translateZ(200px);
+}
+</style>
+
+<!-- Mirrored from localhost/svt/final/brand2.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 May 2024 13:17:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<body class="brand1">
+<center><h3>Brands We Deal In</h3></center>
+<div class="brand">
+   
+    <div class="rotator">
+            <div class="items"><img src="img/brand/Sika_NoClaim_pos_rgb_mobile.webp" alt="Sika Chemicals" /></div>
+
+                <div class="items"><img src="img/brand/FOSROC-Man.webp" alt="FOSROC" /></div>
+
+                <div class="items"><img src="img/brand/ardex_logo_small.webp" alt="ARDEX ENDURA" /></div>
+
+                <div class="items"><img src="img/brand/Anabond-Logo-registration-mark.webp" alt="Anabond" /></div>
+
+        
+
+    </div>
+        
+  </div>
+  </body>

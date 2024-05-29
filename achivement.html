@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="style.css">|
+
+<center>
+<section id="sample" class="sample">
+    <div class="content-wrap"><h4>Our Achivemenmts</h4><br><br>
+            <div class="row__inner">
+                <div class="tile">
+                    <div class="tile__media">
+                    <img src="img/achi/screenshot-2019-09-23-15-36-42-500x500.webp" alt="Sika India Pvt Ltd"/><br><br><br><br><br><br>
+                        <h4 align="left">Certificate of Authorised Distributer</h4>
+                    </div>  
+                </div>
+                
+                <div class="tile">
+                    <div class="tile__media">
+                    <img src="img/achi/fosroc-award-500x500-1.webp" alt="FOSROC Chemicals (india) Pvt LTD"/><br><br><br><br><br><br>
+                        <h4 align="left">NE Wproduct Champion LOKFIX</h4>
+                    </div>  
+                </div>
+                
+                <div class="tile">
+                    <div class="tile__media">
+                    <img src="img/achi/screenshot-2019-09-23-15-42-01-1000x1000.webp" alt="FOSROC Chemicals (india) Pvt LTD"/><br><br><br><br><br><br>
+                        <h4 align="left">Authorised Distributers</h4>
+                    </div>  
+                </div>
+                
+               
+               
+            </div>
+        </div>
+    </div>
+ </section>    
+                    </center>
+ <style>
+
+
+/*--------------------teaching-------------------*/
+.sample {
+  background: -webkit-linear-gradient(left, #735DA5, #D3C5E5);
+  url(teaching.html) no-repeat fixed;
+                height:480px;
+  }
+
+/* --------------------@media--------------------- */
+@media (min-width: 935px) {
+    .profile-img {
+        width: 250px;  
+        height: 250px;
+    }
+    .col-narrow {
+        width: 30%; 
+        float: left;
+    }
+    .col-wide {
+        width: 70%; 
+        float: left; 
+        padding-left: 50px; 
+    }
+}
+
+.tile {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 140.625px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 450ms all;
+  transform-origin: center left;
+}
+.tile__img {
+  width: 250px;
+  height: 140.625px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tile:hover .tile__details {
+  opacity: 1;
+}
+.tile__title {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.row__inner:hover {
+  transform: translate3d(-62.5px, 0, 0);
+}
+.row__inner:hover .tile {
+  opacity: 0.3;
+}
+.row__inner:hover .tile:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+.tile:hover ~ .tile {
+  transform: translate3d(250px, 0, 0);
+}
+</style>
